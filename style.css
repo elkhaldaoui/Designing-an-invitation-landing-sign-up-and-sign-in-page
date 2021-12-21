@@ -191,8 +191,9 @@ border-radius: 7px;
 .sign-up{
     position: absolute;
     top: 158%;
-    right: 20px;
-    height: 52%;
+    right: 130px;
+    height: 50%;
+    margin-top: 100px;
 }
 .photos{
     margin-top: 100px;
@@ -265,7 +266,6 @@ footer{
 }
 .footer .link_list ul li{
     display: flex;
-    
 }
 .footer .link_list ul{
     margin-left: 50px;
