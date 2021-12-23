@@ -1,56 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" href="images/invitation.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Normale.css">
     <title>invitation</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="list1">
-                <li class="lis1 special"><a href="./index.html">invitation</a></li>
-                <li class="lis1"><a href="#">Features</a></li>
-                <li class="lis1"><a href="#">Extension</a></li>
-                <li class="lis1"><a href="#">Referral programs</a></li>
-                <li class="lis1"><a href="#">people</a></li>
-            </ul>
-            <ul class="list2">
-                <li class="lis2"><a href="./log in.html">Log in</a></li>
-                <li class="lis2 loginbtn"><a href="./Sin up.html">Sign up</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <section>
-            <div class="herosec">
-                <div class="text1">
-                    <h1>The Referral Community.</h1>
-                    <p class="par1">Invitation is the new social network where everyone gets rewarded. Join, post all your referral links — collect rewards on auto pilot.</p>
-                    <div class="inputContainer">
-                        <input class="Field" type="text" placeholder="🔍Find promo codes" />
-                        <a href="#" class="btn1">Get started —  for free</a>
+        <nav class="container">
+            <div class="nav-container1">
+                <p class="special">invitation</p>
+                <div class="dropdown">
+                    <span class="menu1">Menu</span>
+                    <div class="dropdown-content">
+                        <p class="#">Features</p>
+                        <p class="#">Extension</p>
+                        <p class="#">Referral programs</p>
+                        <p class="#">people</p>
+                        <p class="#"><a href="log in.html">Log in</a></p>
+                        <p class="#"><a href="Sin up.html">Sign up</a></p>
                     </div>
                 </div>
             </div>
-            <div class="hero1">
-                <img class="heroimg" src="images/hero-image.png" alt="">
+            <div class="nav-container2">
+                <ul class="list1">
+                    <li class="lis1 special"><a href="./index.html">invitation</a></li>
+                    <li class="lis1"><a href="#">Features</a></li>
+                    <li class="lis1"><a href="#">Extension</a></li>
+                    <li class="lis1">
+                        <select name="" class="option1">
+                            <option value="test">Referral Programs</option>
+                            <option value="test">help2</option>
+                            <option value="test">help3</option>
+                            <option value="test">help4</option>
+                            <option value="test">help5</option>
+                            <option value="test">help6</option>
+                            <option value="test">help7</option>
+                        </select>
+                    </li>
+                    <li class="lis1">
+                        <select name="" class="option1">
+                            <option value="test">people</option>
+                            <option value="test">help2</option>
+                            <option value="test">help3</option>
+                            <option value="test">help4</option>
+                            <option value="test">help5</option>
+                            <option value="test">help6</option>
+                            <option value="test">help7</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li class="lis2"><a href="./log in.html">Log in</a></li>
+                    <li class="lis2 loginbtn"><a href="./Sin up.html">Sign up</a></li>
+                </ul>
             </div>
-        </section>
-        <section class="partners">
-            <img src="images/company-1.png" alt="company1">
-            <img src="images/company-2.png" alt="company2">
-            <img src="images/company-3.png" alt="company3">
-            <img src="images/company-4.png" alt="company4">
-            <img src="images/company-5.png" alt="company5">
-            <img src="images/company-6.png" alt="company6">
-        </section>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="herosecm">
+            <div class="submobile">
+                <h1 class="mtitle1">The Referral Community.</h1>
+                <p class="mpara1">Invitation is the new social network where everyone gets rewarded. <br> Join, post all your referral links — collect rewards on auto pilot.</p>
+                <div class="inputs">
+                    <input class="input1" list="browsers" name="browser" id="browser" placeholder="🔍 find promo codes.">
+                    <datalist id="browsers">
+                    <option value="promo 1">
+                    <option value="promo 2">
+                    <option value="promo 3">
+                    <option value="promo 4">
+                    <option value="promo 5">
+                    </datalist>
+                    <a href="" class="ahero">Get Started — It's free.</a>
+            </div>
+            </div>
+            <img class="heroimg" src="images/hero-image.png" alt="hero img">
+        </div>
+        <div class="partners">
+            <img src="images/company-1.png" alt="company-1">
+            <img src="images/company-2.png" alt="company-2">
+            <img src="images/company-3.png" alt="company-3">
+            <img src="images/company-4.png" alt="company-4">
+            <img src="images/company-5.png" alt="company-5">
+            <img src="images/company-6.png" alt="company-6">
+        </div>
         <section class="middlesec">
-            <img src="images/left-illustration.png" alt="left-illustration">
+            <img class="midle-img" src="images/left-illustration.png" alt="left-illustration">
             <div class="awards">
                 <h2 class="ms-ms">Get Cash rewards 💰</h2>
                 <div class="service1">
@@ -125,34 +162,34 @@
                         </svg>
                         <h6 class="title3">Grow</h6>
                     </div>
-                    <p>Explore more <a class="link1" href="#">referral programs</a> and promote your page to get more bonuses & discounts.</p>
+                    <p>Explore more <a class="link1" href="#"><u>referral programs</u></a> and promote your page to get more bonuses & discounts.</p>
                 </div>
                 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
                 <div class="btn3">
-                    <a href="#" class="btn1">Get started —  for free</a>
+                    <a href="#" class="ahero">Get started — for free</a>
                 </div>
             </div>
-            <img src="images/right-illustration.png" alt="right-illustration">
+            <img class="midle-img" src="images/right-illustration.png" alt="right-illustration">
         </section>
-        <!--     next section             -->
-        <section class="lowersec">
-            <div class="preseting">
-                <h1 class="text-preseting">Why don't you post your links here <br> too?</h1>
-                <div class="secr">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
-                    </svg>
-                    <p class="secr-text">List the products you ❤️ love.</p>
-                </div>
-                <div class="secr">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
-                    </svg>
-                    <p class="secr-text">Get 🎉 rewarded.</p>
-                </div> 
-                <div class="secr slc">
-                    <button class="log-ggl">
-                        <svg class="svgg" xmlns="http://www.w3.org/2000/svg" width="261" height="52" viewBox="0 0 261 52">
+        <!--next section-->
+        <section class="signup">
+            <div class="mainsign">
+                <h2 class="titlesign">Why don't you post your links here<br>too ?</h2>
+                <div class="textlist">
+                    <div class="text1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
+                        </svg>
+                        <p class="para1">List the products you ❤️ love.</p>
+                    </div>
+                    <div class="text1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
+                        </svg>
+                        <p class="para1">Get 🎉 rewarded.</p>
+                    </div>
+                    <div class="btng">
+                        <svg class="googlesvg" xmlns="http://www.w3.org/2000/svg" width="261" height="52" viewBox="0 0 261 52">
                             <g id="Group_8" data-name="Group 8" transform="translate(-198 -2051)">
                               <rect id="Rectangle_6" data-name="Rectangle 6" width="261" height="52" rx="5" transform="translate(198 2051)" fill="#fff"/>
                               <g id="Google-Button" transform="translate(230 2055)">
@@ -176,74 +213,80 @@
                               </g>
                               <text id="Sign_in_with_Google" data-name="Sign in with Google" transform="translate(274 2083)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Sign in with Google</tspan></text>
                             </g>
-                          </svg>                        
-                    </button>
-                    <a href="#" class="btn1">Explore Features</a>
-                </div>              
+                          </svg>
+                          
+                        <a href="#" class="ahero exp" >Explore Feautures</a>
+                    </div>
+                </div>
             </div>
-            <img class="sign-up" src="images/signup-image.png" alt="signupimg">
+            <img class="signupimg" src="images/signup-image.png" alt="signup">
         </section>
-        <section class="photos">
-            <div class="photo1">
-                <img class="p1" src="images/footer-1.png" alt="car">
-                <img class="p2" src="images/footer-5.png" alt="building">
+        <div class="album">
+            <div class="album1">
+                <img class="al1" src="images/footer-1.png" alt="car">
+                <img class="al2" src="images/footer-5.png" alt="building">
             </div>
-            <div class="photo2">
-                <img class="p3" src="images/footer-3.png" alt="mountains">
+            <div class="album2">
+                <img class="al3" src="images/footer-3.png" alt="mountains">
             </div>
-            <div class="photo3">
-                <img class="p5" src="images/footer-2.png" alt="car 2">
-                <img class="p5" src="images/footer-4.png" alt="fire">
+            <div class="album3">
+                <img class="al4" src="images/footer-2.png" alt="car 2">
+                <img class="al5" src="images/footer-4.png" alt="fire">
             </div>
-            <div class="photo4">
-                <img class="p6" src="images/footer-7.png" alt="grass and sky">
-                <img class="p7" src="images/footer-6.png" alt="clouds">
+            <div class="album4">
+                <img class="al6" src="images/footer-7.png" alt="grass and sky">
+                <img class="al7" src="images/footer-6.png" alt="clouds">
             </div>
-        </section>
+        </div>
     </div>
-    <footer>
-       <div class="footer">
-           <div class="P_footer">
-                <p>
-                    <span> Invitation</span> is the new social network where everyone gets rewarded. Join, post all your referral links — collect rewards on auto pilot.
-                </p>
+    <footer class="fcontainer container">
+        <div class="f1">
+            <div class="text">
+                <p class="fp">Invitation is the new social network where everyone gets rewarded. Join, post all your referral links — collect rewards on auto pilot.</p>
             </div>
-           <div class="image_footer">
-                <img src="facebook.svg" alt="fb">
-                <img src="instagram.svg" alt="insta">
-                <img src="twitter.svg" alt="twitter">
-           </div>
-           <div class="link_list">
-                <ul>
-                    <li>Explore</li>
-                    <li>Programs</li>
-                    <li>People</li>
-                    <li>Guide</li>
-                </ul>
-                <ul>
-                    <li>Me</li>
-                    <li>Post a link</li>
-                    <li>Sign in</li>
-                    <li>Sign up</li>
-                </ul>
-                <ul>
-                    <li>Product</li>
-                    <li>Features</li>
-                    <li>Extension</li>
-                    <li>Earn Credits</li>
-                    <li>Invite Friends</li>
-                    <li>Help</li>
-                </ul>
-                <ul>
-                    <li>Company</li>
-                    <li>Job</li>
-                    <li>Advertise</li>
-                </ul>
-           </div>
-       </div>
+            <div class="svgfooter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.164" height="24.164" viewBox="0 0 24.164 24.164">
+                    <path id="social-1_square-facebook" d="M0,0V24.164H24.164V0ZM15.254,8.08H14.121c-.906,0-1.057.453-1.057,1.057V10.5h2.114l-.3,2.114H13.064v5.512h-2.19V12.611H8.986V10.5h1.888V8.911a2.513,2.513,0,0,1,2.718-2.869c.755,0,1.435.076,1.661.076Z" fill="#fff"/>
+                </svg>
+                <svg id="social-1_square-instagram" xmlns="http://www.w3.org/2000/svg" width="24.164" height="24.164" viewBox="0 0 24.164 24.164">
+                    <path id="Path_29" data-name="Path 29" d="M18.182,15.682a3.7,3.7,0,0,1-7.4,0,4.42,4.42,0,0,1,.151-.982H9.8v5.286a.325.325,0,0,0,.3.3h8.684a.325.325,0,0,0,.3-.3V14.7H17.955A2.325,2.325,0,0,1,18.182,15.682Z" transform="translate(-2.4 -3.6)" fill="#fff"/>
+                    <path id="Path_30" data-name="Path 30" d="M19.5,12.165h1.661a.325.325,0,0,0,.3-.3V10.2a.325.325,0,0,0-.3-.3H19.5a.325.325,0,0,0-.3.3v1.661C19.118,12.014,19.269,12.165,19.5,12.165Z" transform="translate(-4.695 -2.424)" fill="#fff"/>
+                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.341" cy="2.341" r="2.341" transform="translate(9.741 9.741)" fill="#fff"/>
+                    <path id="Path_31" data-name="Path 31" d="M0,0V24.164H24.164V0ZM18.123,16.688a1.485,1.485,0,0,1-1.435,1.435H7.476a1.434,1.434,0,0,1-1.435-1.435V7.476A1.434,1.434,0,0,1,7.476,6.041h9.213a1.434,1.434,0,0,1,1.435,1.435Z" fill="#fff"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24.164" height="24.164" viewBox="0 0 24.164 24.164">
+                    <path id="social-1_square-twitter" d="M0,0V24.164H24.164V0ZM16.915,9.59v.3a6.99,6.99,0,0,1-7.023,7.023,6.379,6.379,0,0,1-3.776-1.133h.6a4.954,4.954,0,0,0,3.1-1.057,2.6,2.6,0,0,1-2.341-1.737c.151,0,.3.076.453.076a2.091,2.091,0,0,0,.68-.076,2.438,2.438,0,0,1-1.963-2.416h0a2.5,2.5,0,0,0,1.133.3A2.478,2.478,0,0,1,6.645,8.835a3.557,3.557,0,0,1,.3-1.284,6.82,6.82,0,0,0,5.135,2.567,1.285,1.285,0,0,1-.076-.529A2.514,2.514,0,0,1,14.5,7.1a2.637,2.637,0,0,1,1.812.755,4.068,4.068,0,0,0,1.586-.6,2.41,2.41,0,0,1-1.057,1.359,7.965,7.965,0,0,0,1.435-.378A5.767,5.767,0,0,1,16.915,9.59Z" fill="#fff"/>
+                  </svg>                                    
+            </div>
+        </div>
+        <div class="links">
+            <ul class="ful">
+                <li class="flinks fspecial">Explore</li>
+                <li class="flinks">Programs</li>
+                <li class="flinks">People</li>
+                <li class="flinks">Guide</li>
+            </ul>
+            <ul class="ful">
+                <li class="flinks fspecial">Me</li>
+                <li class="flinks">Post a link</li>
+                <li class="flinks">Sign in</li>
+                <li class="flinks">Sign up</li>
+            </ul>
+            <ul class="ful">
+                <li class="flinks fspecial">Product</li>
+                <li class="flinks">Features</li>
+                <li class="flinks">Extension</li>
+                <li class="flinks">Earn Credits</li>
+                <li class="flinks">Invite Friends</li>
+                <li class="flinks">Help</li>
+            </ul>
+            <ul class="ful">
+                <li class="flinks fspecial">Company</li>
+                <li class="flinks">Job</li>
+                <li class="flinks">Advertise</li>
+            </ul>
+        </div>
     </footer>
-    <p class="last_p">
-        All product names, logos, brands and dogs are property of their respective owners.Feel free to check out our privacy policy and terms of service.
-    </p>
+    <p class="final">All product names, logos, brands and dogs are property of their respective owners.Feel free to check out our privacy policy and terms of service.</p>
 </body>
 </html>

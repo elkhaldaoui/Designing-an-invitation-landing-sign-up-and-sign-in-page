@@ -6,29 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
 <style>
-  @media only screen and (max-width:500px) {
-  /* For mobile phones: */
-   .container, .imgcontainer {
-    width: 100%;
-  }
- body form{
-   width: 100%;
-   height: 100%;
-   padding: 100%;
-   margin: auto;
- }
-}
         body {
           font-family:'Times New Roman', Times, serif;
         }
         form {
           border: 4px solid black;
           background-image: linear-gradient(135deg, #e07006 10%, #d92de9 100%);
-          width: 900px;
+          width: 50%;
+          height: 90%;
           margin-left: 170px;
           padding-right: 300px;
           padding-left: 300px;
-          height: 900px;
+          margin: 5% 5%;
         }
         
         input[type=text], input[type=password] {
@@ -86,6 +75,13 @@
           text-decoration: none;
           color: white;
         } 
+        @media only screen and (max-width:600px){
+          .form, .imgcontainer, .container, .cancelbtn{
+            width: 100%;
+            height: 100%;
+            align-content: center;
+          }
+        }
 </style>
 </head>
 <body>
